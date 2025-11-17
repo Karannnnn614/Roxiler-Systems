@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import api from "../utils/api";
-import { validateEmail, validatePassword } from "../utils/validation";
+import { validateEmail } from "../utils/validation";
 import "./Auth.css";
 
 const Login = () => {

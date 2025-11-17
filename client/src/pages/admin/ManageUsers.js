@@ -18,6 +18,7 @@ const ManageUsers = () => {
 
   useEffect(() => {
     fetchUsers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters, sortConfig]);
 
   const fetchUsers = async () => {

@@ -11,6 +11,7 @@ const UserDetails = () => {
 
   useEffect(() => {
     fetchUserDetails();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const fetchUserDetails = async () => {
