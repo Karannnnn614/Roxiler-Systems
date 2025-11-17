@@ -1,0 +1,33 @@
+.average-rating-card {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.rating-icon {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.average-rating-card h2 {
+  font-size: 24px;
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+.rating-value-large {
+  font-size: 64px;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.rating-subtitle {
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.rating-badge {
+  color: #fbbf24;
+  font-size: 16px;
+  font-weight: 600;
+}
